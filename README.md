@@ -2,7 +2,7 @@
 
 ## Abstract
 
-![Fatiando a Terra](images/fatiando.png)
+![Fatiando a Terra](images/fatiando-banner.png)
 
 Fatiando a Terra es un proyecto comunitario que posee el objetivo de
 desarrollar herramientas de software libre para geofísica que sean sencillas de
