@@ -2,7 +2,7 @@
 
 ## Abstract
 
-![Fatiando a Terra][images/fatiando.png]
+![Fatiando a Terra](images/fatiando.png)
 
 Fatiando a Terra es un proyecto comunitario que posee el objetivo de
 desarrollar herramientas de software libre para geofísica que sean sencillas de
@@ -21,7 +21,7 @@ resolver distintos problemas geofísicos y geológicos.
 
 ## Bio
 
-![Santiago Soler][images/santisoler.jpg]
+![Santiago Soler](images/santisoler.jpg)
 
 Santiago Soler es Licenciado en Física (UNR) y Doctor en Geofísica (UNSJ).
 Durante su doctorado investigó nuevas metodologías para el procesamiento
