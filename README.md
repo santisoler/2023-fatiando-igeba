@@ -29,7 +29,7 @@ y modelado de datos gravimétricos y magnéticos.
 En paralelo a su investigación, Santiago forma parte del grupo de
 desarrolladores de Fatiando a Terra, un proyecto cuyo objetivo es generar
 herramientas de software libre para geofísica.
-Actualmente Santiago se encuentra realizando una postdoc en la Universidad de
+Actualmente, Santiago se encuentra realizando una postdoc en la Universidad de
 British Columbia (Canadá), aplicando inversiones conjuntas de gravedad
 y magnetismo a fin de caracterizar el potencial de rocas ultramáficas para
 secuestrar y mineralizar carbono.
