@@ -1,7 +1,17 @@
-name: talk
+name: 2023-fatiando-igeba
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python==3.9
   - livereload==2.6.3
+  - jupyter
+  - numpy==1.22.*
+  - matplotlib
+  - pandas
+  - pyproj
+  - pygmt
+  - boule
+  - harmonica
+  - ensaio
+  - verde
