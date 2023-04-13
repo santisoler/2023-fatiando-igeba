@@ -61,8 +61,28 @@
     align-items: center;
   }
 
+  .align-start {
+    align-items: start;
+  }
+
+  .justify-start {
+    justify-content: start;
+  }
+
   .justify-center {
     justify-content: center;
+  }
+
+  .justify-space-around {
+    justify-content: space-around;
+  }
+
+  .justify-space-between {
+    justify-content: space-between;
+  }
+
+  .justify-space-evenly {
+    justify-content: space-evenly;
   }
 
   .flex-row {
@@ -80,6 +100,18 @@
     height: 100%;
   }
 
+  // -----------
+  // Fontawesome
+  // -----------
+  // Set list-style-type to none on fa-ul
+  .fa-ul {
+    list-style-type: none;
+  }
+
+  .fa-ol {
+    list-style-type: none;
+  }
+
   // ---------------------------
   // Define other custom classes
   // ---------------------------
@@ -93,5 +125,34 @@
 
   .red {
     color: #ad0018;
+  }
+
+  // ----------------------------------
+  // Classes for this particular slides
+  // ----------------------------------
+  .fatiando-projects-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+    align-items: start;
+    gap: 0.5em;
+  }
+
+  .fatiando-project {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    // max-width: 45vw;
+
+    p,
+    li,
+    i {
+      font-size: @base_font_size * 0.7;
+    }
+    p {
+      margin: 0;
+    }
   }
 }
