@@ -50,6 +50,25 @@
     width: 95%;
   }
 
+  // -------------------------------------------
+  // Define custom classes for manipulating text
+  // -------------------------------------------
+  .text-align-left {
+    text-align: left;
+  }
+
+  .text-align-right {
+    text-align: right;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .text-small {
+    font-size: @base_font_size * 0.7;
+  }
+
   // ----------------------------------------------------
   // Define custom flexbox classes (similar to bootstrap)
   // ----------------------------------------------------
@@ -73,15 +92,15 @@
     justify-content: center;
   }
 
-  .justify-space-around {
+  .justify-around {
     justify-content: space-around;
   }
 
-  .justify-space-between {
+  .justify-between {
     justify-content: space-between;
   }
 
-  .justify-space-evenly {
+  .justify-evenly {
     justify-content: space-evenly;
   }
 
@@ -91,6 +110,10 @@
 
   .flex-column {
     flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
   }
 
   .centered {
@@ -106,10 +129,12 @@
   // Set list-style-type to none on fa-ul
   .fa-ul {
     list-style-type: none;
+    margin-left: 1em;
   }
 
   .fa-ol {
     list-style-type: none;
+    margin-left: 1em;
   }
 
   // ---------------------------
@@ -125,6 +150,13 @@
 
   .red {
     color: #ad0018;
+  }
+
+  .footnote {
+    font-size: @base_font_size * 0.6;
+    p {
+      text-align: left;
+    }
   }
 
   // ----------------------------------
@@ -155,4 +187,93 @@
       margin: 0;
     }
   }
+
+  .slide-title {
+    .title-authors {
+      display: flex;
+      justify-content: end;
+      align-items: start;
+      flex-direction: column;
+      margin-bottom: 2em;
+    }
+    .title,
+    .authors {
+      text-align: left;
+    }
+
+    .authors {
+      font-weight: normal;
+      font-size: @h2_font_size * 0.8;
+    }
+
+    .location {
+      font-size: @base_font_size * 0.7;
+      margin-bottom: 2em;
+    }
+
+    .institutional-logo {
+      height: 1.5em;
+    }
+
+    .footer {
+      font-size: @base_font_size * 0.5;
+      margin-top: 1em;
+    }
+  }
+
+  .slide-steering-council {
+    .council-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      margin: 0 2em;
+      font-size: @base_font_size * 0.8;
+
+      img {
+        border-radius: 50%;
+        height: 7em;
+        width: 7em;
+      }
+    }
+  }
+
+  .slide-contributors {
+    .contributors {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      border-radius: 50%;
+      height: 3em;
+      width: 3em;
+      margin: 0.2em 0.5em;
+    }
+  }
+
+  .slide-community {
+    .signs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2em;
+    }
+
+    .sign {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+      i {
+        font-size: @h1_font_size;
+      }
+    }
+  }
+
+  // end
 }

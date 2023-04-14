@@ -1,10 +1,39 @@
-<!-- .slide: class="center" -->
+<!-- .slide: class="slide-title" data-background-image="images/fatiando-background.png" -->
 
-# Fatiando a Terra: software libre para geofísica
+<div class="title-authors r-stretch">
+<h1 class="title"> Fatiando a Terra: <br> software libre para geofísica </h1>
+<h2 class="authors"><a href="https://www.santisoler.com">Santiago Soler</a></h2>
+</div>
 
-Santiago Soler
+<p class="location">
+IGeBA  |  Abril 2023
+</p>
 
-<!-- UBC, IGEBA, etc -->
+<div class="d-flex flex-row align-center justify-around">
+<img
+class="institutional-logo"
+src="images/logos/fatiando-light.png"
+alt="Fatiando a Terra"
+>
+<img
+class="institutional-logo"
+src="images/logos/ubc-narrow.png"
+alt="University of British Columbia"
+>
+<img
+class="institutional-logo"
+src="images/logos/igeba.jpg"
+alt="IGeBA"
+>
+</div>
+
+<p class="footer">
+<i class="fa-solid fa-earth-americas"></i>
+<a href="https://www.fatiando.org">fatiando.org</a>
+|
+<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
+Creative Commons Attribution 4.0
+</p>
 
 ---
 
@@ -44,11 +73,23 @@ Santiago Soler
 - doctorado en unsj, donde comencé a colaborar con fatiando
 - otros software libres en geofisica (python stack, gmt, qgis, gplates)
 - integracion con otros software: pyproj, pygmt, etc
+- awesome open geoscience: https://github.com/softwareunderground/awesome-open-geoscience
 
 
 ---
 
+<div class="d-flex flex-row justify-between align-center">
+
 # Acerca de
+
+<div>
+<img src="images/logos/unr.png" alt="" style="height: 2.5em; margin: 0">
+<img src="images/logos/unsj.png" alt="" style="height: 2.5em; margin: 0">
+<img src="images/logos/igsv.png" alt="" style="height: 2.5em; margin: 0">
+<img src="images/logos/ubc.png" alt="" style="height: 2.5em; margin: 0">
+</div>
+
+</div>
 
 <div class="centered r-stretch">
 
@@ -60,13 +101,27 @@ Santiago Soler
 
 <div>
 
-- Lic en Física (UNR)
-- Doctor en Geofísica (UNSJ)
-- Postdoc en UBC, Canada
-- Investigaciones:
-    - Procesamiento y modelado gravedad y magnetismo
-    - Inversiones conjuntas
-- Desarrollador de Fatiando a Terra
+<ul class="fa-ul">
+    <li><i class="fa-li fa-sharp fa-solid fa-building-columns"></i>
+        Lic en Física (UNR)
+    </li>
+    <li><i class="fa-li fa-sharp fa-solid fa-building-columns"></i>
+        Doctor en Geofísica (UNSJ)
+    </li>
+    <li><i class="fa-li fa-sharp fa-solid fa-building-columns"></i>
+        Postdoc en UBC, Canada
+    </li>
+    <li><i class="fa-li fas fa-flask"></i>
+        Investigaciones:
+    </li>
+        <ul>
+            <li>Procesamiento y modelado gravedad y magnetismo</li>
+            <li>Inversiones conjuntas</li>
+        </ul>
+    <li><i class="fa-li fas fa-code"></i>
+        Desarrollador de Fatiando a Terra 🌎
+    </li>
+</ul>
 
 </div>
 
@@ -77,20 +132,44 @@ Santiago Soler
 
 <!-- .slide: class="center"  -->
 
-# ¿Qué es el software libre <br> o open-source?
+# ¿Qué es el software libre <br> u open-source?
 
 ---
 
-## Libertades
+<!-- .slide: class="center"  -->
 
-<div class="centered r-stretch">
+## Libertades
 
 0. **Utilizar** el software con cualquier propósito
 1. **Estudiar** el código y **modificarlo**
 2. **Distribuir copias** del software
 3. **Distribuir** versiones **modificadas**
 
+---
+
+<!-- .slide: class="center" data-background-color="#eee" -->
+
+## Ejemplos
+
+<div class="d-flex flex-row justify-around align-center flex-wrap">
+
+<div class="d-flex flex-column align-center justify-center">
+<img src="images/logos/gmt.png" style="height: 5em; width: auto;">
+Licencia: LGPLv3
 </div>
+
+<div class="d-flex flex-column align-center justify-center">
+<img src="images/logos/qgis.png" style="height: 5em; width: auto;">
+Licencia: GPLv2
+</div>
+
+</div>
+
+<div class="d-flex flex-column align-center justify-center">
+<img src="images/logos/fatiando-logo.png" style="height: 5em; width: auto;">
+Licencia: BSD-Clause3
+</div>
+
 
 ---
 
@@ -100,7 +179,39 @@ Santiago Soler
 
 ---
 
+<div class="r-stretch centered">
+
+<img src="images/reproducibility-crisis.jpg"
+alt="Infografia con resultados de investigación sobre la reproducibilidad de la ciencia, mostrando que un 52% de les entrevistades consideran que hay una crisis de reproducibilidad en la ciencia."
+style="height: 100vh; width: auto;">
+
+</div>
+
+<div class="footnote">
+
+Baker, M. (2016). doi: [10.1038/533452a](https://doi.org/10.1038/533452a)
+
+</div>
+
+---
+
+<div class="r-stretch centered">
+
+<img src="images/code-from-scratch.gif" alt="" style="width: 80vw;">
+
+</div>
+
+<div class="footnote">
+
+[PhDComics (2014-03-14)](https://phdcomics.com/comics/archive.php?comicid=1689)
+
+</div>
+
+---
+
 <!-- .slide: class="center"  -->
+
+## El software libre:
 
 - Posibilita una **Ciencia Abierta**
 - Aumenta a la **reproducibilidad**
@@ -110,15 +221,15 @@ Santiago Soler
 
 ---
 
-# Fatiando a Terra
+<!-- .slide: data-background-image="images/fatiando-banner.png" data-background-size="contain" data-background-color="#060629" -->
 
 ---
 
-<!-- .slide: class="center" -->
+<!-- .slide: class="center" data-background-image="images/fatiando-background.png" -->
 
 ## Un poco de historia
 
-<div class="d-flex flex-row justify-space-between align-start">
+<div class="d-flex flex-row justify-between align-start">
 
 <div style="flex: 4">
 
@@ -130,6 +241,7 @@ Santiago Soler
     - Modelado de gravedad y magnetismo
     - Inversiones geométricas
     - Problemas juguete para docencia
+- Circa 2015: primeras colaboraciones de Santiago
 
 </div>
 
@@ -141,21 +253,31 @@ Santiago Soler
 
 ---
 
-<!-- .slide: class="center" -->
+<!-- .slide: class="center" data-background-image="images/fatiando-background.png" -->
 
 ## Modernizar nuestras herramientas
 
+<div class="d-flex flex-row justify-around align-between">
+<img src="images/logos/python-3.png" style="width: auto; height: 100%;">
+<p>+</p>
+<p>Ecosistema científico <br> en Python</p>
+</div>
+
+<div style="background-color: #eee">
+<img src="images/geoscientific-stack.png" style="width: 100%; height: auto;">
+</div>
+
 ---
 
-<!-- .slide: class="center" -->
+<!-- .slide: class="center" data-background-image="images/fatiando-background.png" -->
 
-## Librerías de Fatiando
+## ✨🌎 Librerías de Fatiando 🌎✨
 
 ---
 
 <!-- .slide: class="center" data-background-color="#eeeeee" -->
 
-<div class="r-stretch d-flex flex-column justify-space-evenly">
+<div class="r-stretch d-flex flex-column justify-evenly">
 
 <!-- row 1 -->
 <div class="fatiando-projects-row">
@@ -174,7 +296,7 @@ Procesamiento y modelado de **gravedad** y **magnetismo**
 <!-- - -->
 
 <!-- Verde -->
-<div class="fatiando-project">
+<div class="fatiando-project fragment">
 <a href="http://www.fatiando.org/verde">
 <img class="project-logo center-block" src="images/logos/verde-logo.svg">
 </a>
@@ -194,7 +316,7 @@ con un toque de machine learning
 <div class="fatiando-projects-row">
 
 <!-- Boule -->
-<div class="fatiando-project">
+<div class="fatiando-project fragment">
 <a href="http://www.fatiando.org/boule">
 <img class="project-logo center-block" src="images/logos/boule-logo.svg">
 </a>
@@ -207,7 +329,7 @@ con un toque de machine learning
 <!-- - -->
 
 <!-- Pooch -->
-<div class="fatiando-project">
+<div class="fatiando-project fragment">
 <a href="http://www.fatiando.org/pooch">
 <img class="project-logo center-block" src="images/logos/pooch-logo.svg">
 </a>
@@ -220,7 +342,7 @@ con un toque de machine learning
 <!-- - -->
 
 <!-- Ensaio -->
-<div class="fatiando-project">
+<div class="fatiando-project fragment">
 <a href="http://www.fatiando.org/ensaio">
 <img class="project-logo center-block" src="images/logos/ensaio-logo.svg">
 </a>
@@ -238,146 +360,181 @@ Sets de **datos geofísicos** bajo **licencia abierta** para experimentar
 
 ---
 
-<div class="container small">
-<div class="col">
+# Live coding...
 
-### ✨New Fatiando✨
+---
 
-Split into libraries
+<!-- .slide: class="center" data-background-image="images/fatiando-background.png" -->
 
-Better coding practices
+# ¿Quién utiliza Fatiando?
 
-Use modern tools
+---
 
-Supplement the ecosystem
+<!-- .slide: data-background-image="images/fatiando-papers.png" data-background-size="contain" -->
+
+---
+
+<!-- .slide: class="center" data-background-image="images/fatiando-background.png" -->
+
+# ¿Quién desarrolla Fatiando?
+
+---
+
+<!-- .slide: class="center slide-steering-council" data-background-image="images/fatiando-background.png" -->
+
+## Steering council
+
+<div class="d-flex flex-wrap flex-row align-start justify-evenly">
+
+<div class="council-member">
+<img src="https://www.github.com/aguspesce.png" >
+<span>
+<i class="fab fa-github fa-fw"></i>
+<a href="https://github.com/aguspesce">aguspesce</a>
+</span>
+</div>
+
+<div class="council-member">
+<img src="https://www.github.com/leouieda.png" >
+<span>
+<i class="fab fa-github fa-fw"></i>
+<a href="https://github.com/leouieda">leouieda</a>
+</span>
+</div>
+
+<div class="council-member">
+<img src="images/luli.jpg" >
+<span>
+<i class="fab fa-github fa-fw"></i>
+<a href="https://github.com/ll-geo">LL-Geo</a>
+</span>
+</div>
+
+<div class="council-member">
+<img src="https://www.github.com/MGomezN.png" >
+<span>
+<i class="fab fa-github fa-fw"></i>
+<a href="https://github.com/mgomezn">MGomezN</a>
+</span>
+</div>
+
+<div class="council-member">
+<img src="https://www.github.com/santisoler.png" >
+<span>
+<i class="fab fa-github fa-fw"></i>
+<a href="https://github.com/santisoler">santisoler</a>
+</span>
+</div>
 
 </div>
-<div class="col fragment">
 
-<a href="http://www.fatiando.org/pooch">
-<img class="project-logo center-block" src="assets/pooch-logo.svg">
-</a>
+---
 
-Data <b>download & caching</b> (used by other libraries)
+<!-- .slide: class="center slide-contributors" data-background-image="images/fatiando-background.png" -->
 
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
-</li>
-<li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
-</li>
-<li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
-   Stable and ready for use
-</li>
-</ul>
+## Contribuidores
 
+<div class="contributors">
+<img src="https://www.github.com/mdtanker.png">
+<img src="https://www.github.com/birocoles.png">
+<img src="https://www.github.com/nshea3.png">
+<img src="https://www.github.com/Esteban82.png">
+<img src="https://www.github.com/djhoese.png">
+<img src="https://www.github.com/lheagy.png">
+<img src="https://www.github.com/jessepisel.png">
+<img src="https://www.github.com/SAskevold.png">
+<img src="https://www.github.com/andersy005.png">
+<img src="https://www.github.com/GenevieveBuckley.png">
+<img src="https://www.github.com/lukegre.png">
+<img src="https://www.github.com/mathause.png">
+<img src="https://www.github.com/hmaarrfk.png">
+<img src="https://www.github.com/horta.png">
+<img src="https://www.github.com/hugovk.png">
+<img src="https://www.github.com/dokempf.png">
+<img src="https://www.github.com/Xarthisius.png">
+<img src="https://www.github.com/jrleeman.png">
+<img src="https://www.github.com/drammock.png">
+<img src="https://www.github.com/remram44.png">
+<img src="https://www.github.com/neutrinoceros.png">
+<img src="https://www.github.com/danshapero.png">
+<img src="https://www.github.com/matthewturk.png">
+<img src="https://www.github.com/avalentino.png">
+<img src="https://www.github.com/dabiged.png">
+<img src="https://github.com/BjoernLudwigPTB.png">
 </div>
-<div class="col fragment">
 
-<a href="http://www.fatiando.org/verde">
-<img class="project-logo center-block" src="assets/verde-logo.svg">
-</a>
+---
 
-ML-based point data processing and <b>gridding</b>
+<!-- .slide: class="center slide-community" data-background-image="images/fatiando-background.png" -->
 
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/verde">fatiando/verde</a>
-</li>
-<li><i class="fa-li fas fa-bookmark fa-fw" title="Publication"></i>
-   doi: <a href="https://doi.org/10.21105/joss.00957">10.21105/joss.00957</a>
-</li>
-<li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
-   Stable and ready for use
-</li>
-</ul>
+# ¡Participa en la comunidad!
 
+<div class="signs">
+
+<div class="sign">
+<i class="fas fa-book"></i>
+Aprende a usar las herramientas
+<a href="https://www.fatiando.org/learn">fatiando.org/learn</a>
 </div>
+
+
+<div class="sign">
+<i class="fas fa-comments"></i>
+Contactate con el resto de la comunidad
+<a href="https://www.fatiando.org/contact">fatiando.org/contact</a>
 </div>
-<div class="container small" style="margin-top: 4%">
-<div class="col fragment">
 
-<a href="http://www.fatiando.org/harmonica">
-<img class="project-logo center-block" src="assets/harmonica-logo.svg">
-</a>
-
-Processing and modeling <b>gravity & magnetic</b> data
-
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
-</li>
-<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-   Ready for use but still changing
-</li>
-</ul>
-
-</div>
-<div class="col fragment">
-
-<a href="http://www.fatiando.org/boule">
-<img class="project-logo center-block" src="assets/boule-logo.svg">
-</a>
-
-Reference <b>ellipsoids</b> for <b>normal gravity</b>
-
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/boule">fatiando/boule</a>
-</li>
-<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
-   Ready for use but still changing
-</li>
-</ul>
-
-</div>
-<div class="col fragment">
-
-<a href="http://www.fatiando.org/ensaio">
-<img class="project-logo center-block" src="assets/ensaio-logo.svg">
-</a>
-
-**Practice datasets** to probe your code
-
-<ul class="fa-ul project-icons">
-<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
-   <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
-</li>
-<li><i class="fa-li fa fa-flask fa-fw" style="color: green" title="Project status"></i>
-    Functional but still evolving
-</li>
-</ul>
-
-</div>
 </div>
 
 ---
 
 <!-- .slide: class="center" -->
 
-## This is another slide
-
-<div class="centered r-stretch">
-
-- with
-- items
-
-</div>
-
----
-
-1. enumerate
-2. lists
+# ¡Gracias!
 
 ---
 
 <!-- .slide: class="center" -->
 
-# Code
+<div class="d-flex flex-row justify-between align-center">
 
-```python
-import harmonica as hm
+<div>
 
-hm.prism_gravity(coordinates, prisms, density, field="g_z")
-```
+## Contacto
+
+<ul class="fa-ul">
+<li>
+<i class="fa-li fas fa-globe"></i>
+<a href="https://www.fatiando.org">fatiando.org/contact</a>
+</li>
+<li>
+<i class="fa-li fas fa-globe"></i>
+<a href="https://www.santisoler.com">santisoler.com</a>
+</li>
+<li>
+<i class="fa-li fab fa-mastodon"></i>
+<a href="https://scicomm.xyz/@santisoler">@santisoler@scicomm.xyz</a>
+</li>
+<li>
+<i class="fa-li fab fa-github"></i>
+<a href="https://www.github.com/santisoler">santisoler</a>
+</li>
+</ul>
+
+</div>
+
+<div>
+
+Diapositivas disponibles en
+[santisoler.com/2023-fatiando-igeba](https://www.santisoler.com/2023-fatiando-igeba)
+
+<img src="images/slides-qr.png" alt="" style="height: 7em;">
+
+<p class="text-small">
+<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
+Creative Commons Attribution 4.0
+</p>
+
+</div>
+
+</div>
