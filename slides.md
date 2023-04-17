@@ -114,9 +114,9 @@ Creative Commons Attribution 4.0
     <li><i class="fa-li fas fa-flask"></i>
         Investigaciones:
     </li>
-        <ul>
-            <li>Procesamiento y modelado gravedad y magnetismo</li>
-            <li>Inversiones conjuntas</li>
+        <ul class="margin-left-0">
+            <li class="text-medium">Procesamiento y modelado gravedad y magnetismo</li>
+            <li class="text-medium">Inversiones conjuntas</li>
         </ul>
     <li><i class="fa-li fas fa-code"></i>
         Desarrollador de Fatiando a Terra 🌎
@@ -140,10 +140,10 @@ Creative Commons Attribution 4.0
 
 ## Libertades
 
-0. **Utilizar** el software con cualquier propósito
-1. **Estudiar** el código y **modificarlo**
-2. **Distribuir copias** del software
-3. **Distribuir** versiones **modificadas**
+0. <b class="green">Utilizar</b> el software con cualquier propósito
+1. <b class="green">Estudiar</b> el código y <b class="green">modificarlo</b>
+2. <b class="green">Distribuir copias</b> del software
+3. <b class="green">Distribuir</b> versiones <b class="green">modificadas</b>
 
 ---
 
@@ -282,21 +282,8 @@ Baker, M. (2016). doi: [10.1038/533452a](https://doi.org/10.1038/533452a)
 <!-- row 1 -->
 <div class="fatiando-projects-row">
 
-<!-- Harmonica -->
-<div class="fatiando-project">
-<a href="http://www.fatiando.org/harmonica">
-<img class="project-logo center-block" src="images/logos/harmonica-logo.svg">
-</a>
-
-Procesamiento y modelado de **gravedad** y **magnetismo**
-
-<i class="fab fa-github fa-fw" title="Github repository"></i>
-<a href="https://github.com/fatiando/verde">fatiando/harmonica</a>
-</div>
-<!-- - -->
-
 <!-- Verde -->
-<div class="fatiando-project fragment">
+<div class="fatiando-project">
 <a href="http://www.fatiando.org/verde">
 <img class="project-logo center-block" src="images/logos/verde-logo.svg">
 </a>
@@ -306,6 +293,19 @@ con un toque de machine learning
 
 <i class="fab fa-github fa-fw" title="Github repository"></i>
 <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+</div>
+<!-- - -->
+
+<!-- Harmonica -->
+<div class="fatiando-project fragment">
+<a href="http://www.fatiando.org/harmonica">
+<img class="project-logo center-block" src="images/logos/harmonica-logo.svg">
+</a>
+
+Procesamiento y modelado de **gravedad** y **magnetismo**
+
+<i class="fab fa-github fa-fw" title="Github repository"></i>
+<a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
 </div>
 <!-- - -->
 
