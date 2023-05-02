@@ -360,7 +360,23 @@ Sets de **datos geofísicos** bajo **licencia abierta** para experimentar
 
 ---
 
-# Live coding...
+<!-- .slide: class="center" data-background-image="images/demo-time.gif" -->
+
+<h1 style="text-shadow: 3px 3px 5px black;" >
+Demos!
+</h1>
+
+---
+
+<!-- .slide: class="center"  -->
+
+## Descargá los Notebooks
+
+<i class="fa fab fa-github" style="margin-top: 1em;"></i>
+<a href="https://github.com/santisoler/2023-fatiando-igeba">
+github.com/santisoler/2023-fatiando-igeba
+</a>
+
 
 ---
 
