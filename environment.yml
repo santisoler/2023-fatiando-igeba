@@ -10,9 +10,9 @@ dependencies:
   - matplotlib
   - pandas
   - pyproj
-  - pygmt
+  - pygmt==0.8.0
   - boule
   - harmonica
   - ensaio
   - verde
-  - harmonica
+  - pyvista
