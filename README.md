@@ -33,3 +33,54 @@ Actualmente, Santiago se encuentra realizando una postdoc en la Universidad de
 British Columbia (Canadá), aplicando inversiones conjuntas de gravedad
 y magnetismo a fin de caracterizar el potencial de rocas ultramáficas para
 secuestrar y mineralizar carbono.
+
+
+## Cómo correr los notebooks
+
+En la carpeta `notebooks` de este repositorio se encuentran los Jupyter
+Notebooks que se utilizaron durante la charla.
+
+Para poder correrlos es necesario que instalemos una distribución de Python
+como [Anaconda](https://www.anaconda.org)
+o [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
+
+> Recomendamos Mambaforge por sobre Anaconda o Miniconda, ya que viene
+> configurado para utilizar `mamba`, un gestor de paquetes más rápido que
+> `conda`.
+
+Luego, debemos descargar este repositorio. Si poseemos `git` instalado en
+nuestro sistema, podemos clonar el repositorio a nuestra computadora con:
+
+```bash
+git clone https://www.github.com/santisoler/2023-fatiando-igeba
+```
+
+O bien, [descargarlo como un archivo
+`.zip`](https://github.com/santisoler/2023-fatiando-igeba/archive/refs/heads/main.zip).
+
+En una terminal, nos movemos al directorio del repositorio:
+
+```bash
+cd 2023-fatiando-igeba
+```
+
+Y vamos a crear el _environment_ con todos los paquetes de Python que
+necesitamos:
+
+```bash
+mamba env create -f environment.yml
+```
+
+Una vez hecho esto, vamos a ejecutar `jupyter-lab`:
+
+```bash
+jupyter-lab
+```
+
+JupyterLab nos abrirá una pestaña en nuestro navegador. En el panel de la
+izquierda vamos a poder ver los archivos de este repositorio. En a la
+carpeta `notebooks`, vamos a hallar los notebooks utilizados en esta charla.
+Haciendo doble click en cualquiera de ellos vamos a poder abrirlos.
+
+Para ejecutar una celda de un notebook debemos pararnos y presionar
+`Shift+Enter`, o bien hacer click en el símbolo ⏵.
