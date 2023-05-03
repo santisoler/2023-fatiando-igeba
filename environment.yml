@@ -8,12 +8,12 @@ dependencies:
   - jupyter
   - jupyter-lab
   - numpy==1.22.*
-  - matplotlib
-  - pandas
-  - pyproj
+  - matplotlib==3.7.*
+  - pandas==2.0.*
+  - pyproj==3.3.*
   - pygmt==0.8.0
-  - boule
-  - harmonica
-  - ensaio
-  - verde
-  - pyvista
+  - boule==0.4.*
+  - harmonica==0.6.*
+  - ensaio==0.5.*
+  - verde==1.7.*
+  - pyvista==0.38.*
