@@ -84,3 +84,14 @@ Haciendo doble click en cualquiera de ellos vamos a poder abrirlos.
 
 Para ejecutar una celda de un notebook debemos pararnos y presionar
 `Shift+Enter`, o bien hacer click en el símbolo ⏵.
+
+
+## Licencia
+
+El contenido de esta presentación se encuentra disponible bajo la
+[Licencia Creative Commons Atribución 4.0 Internacional][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/deed.es
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
