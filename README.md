@@ -1,5 +1,14 @@
 # Fatiando a Terra: software libre para geofísica
 
+## Información
+
+| Información | |
+|---|---|
+| Cuándo | Miércoles 3 de Mayo, 2023 |
+| Dónde | https://www.youtube.com/@igeba9451/streams |
+| Ver slides | https://www.santisoler.com/2023-fatiando/igeba |
+
+
 ## Abstract
 
 ![Fatiando a Terra](images/fatiando-banner.png)
