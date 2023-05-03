@@ -6,6 +6,7 @@ dependencies:
   - python==3.9
   - livereload==2.6.3
   - jupyter
+  - jupyter-lab
   - numpy==1.22.*
   - matplotlib
   - pandas
