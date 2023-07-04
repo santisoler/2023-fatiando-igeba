@@ -6,7 +6,7 @@
 |---|---|
 | Cuándo | Miércoles 3 de Mayo, 2023 |
 | Dónde | https://www.youtube.com/@igeba9451/streams |
-| Ver slides | https://www.santisoler.com/2023-fatiando/igeba |
+| Ver slides | https://www.santisoler.com/2023-fatiando-igeba |
 
 
 ## Abstract
